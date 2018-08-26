@@ -12,9 +12,9 @@ module.exports = {
   devtool: 'inline-source-map', // add source maps
 
   plugins: [
-    new CleanWebpackPlugin(['dist']),                     // delete previously generated files from the dist dir
-    new HtmlWebpackPlugin({title: 'Output Management'}),  // generate index.html
-    new ManifestPlugin(),                                 // emit dist/manifest.json
+    new CleanWebpackPlugin(['dist']),               // delete previously generated files from the dist dir
+    new HtmlWebpackPlugin({title: 'Development'}),  // generate index.html
+    new ManifestPlugin(),                           // emit dist/manifest.json
   ],
 
   output: {
