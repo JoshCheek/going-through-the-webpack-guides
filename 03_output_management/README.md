@@ -1,7 +1,7 @@
 Webpack
 =======
 
-Based on the example at https://webpack.js.org/guides/getting-started/
+Based on the example at https://webpack.js.org/guides/output-management/
 
 ```sh
 # build
