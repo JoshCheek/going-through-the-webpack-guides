@@ -3,6 +3,7 @@ export default function printMe() {
 }
 
 window.PRINTME_MODULE = module // for looking at `module.hot`
+console.log({id: module.id}) // this is apparently not what you need to `module.hot.accept('??', ...`
 
 // it's hot, but always says "Nothing hot updated" :/
 if (module.hot) {
