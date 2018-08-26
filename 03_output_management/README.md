@@ -6,10 +6,15 @@ Based on the example at https://webpack.js.org/guides/output-management/
 ```sh
 # build
 $ npm run build
+```
 
-# what it's doing:
-$ npx webpack
+To see the manifest:
 
-# if you want to change the config file:
-$ npx webpack --config webpack.config.js
+```sh
+$ jq < dist/manifest.json
+{
+  "app.js": "app.bundle.js",
+  "print.js": "print.bundle.js",
+  "index.html": "index.html"
+}
 ```
