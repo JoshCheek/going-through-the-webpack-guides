@@ -8,7 +8,6 @@ module.exports = {
   mode: 'development',
 
   entry: {
-    '00-hot-reloading': 'webpack-hot-middleware/client',
     app:   './src/index.js',  // first entry point
     print: './src/print.js',  // second entry point
   },

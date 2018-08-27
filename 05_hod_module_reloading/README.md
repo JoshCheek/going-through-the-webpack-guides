@@ -8,4 +8,5 @@ Based on the example at https://webpack.js.org/guides/hot-module-replacement/
 $ npm run build
 ```
 
-IDK, I spent about an hour and a half trying to get it to hot reload and it never worked :(
+This was pretty rough. Shoutout to @mcmire for helping me figure out how to get
+the first one working.
